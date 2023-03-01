@@ -7,10 +7,6 @@ import { ChildProp } from "next/dist/server/app-render";
 import StoryCard from "./components/StoryCard";
 import { ChevronDownIcon } from "@radix-ui/react-icons";
 
-export const metadata = {
-  title: "Test",
-};
-
 const PlaceHolderStories = [
   {
     title: "Sample Story Title 1",
